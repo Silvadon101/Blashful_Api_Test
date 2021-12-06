@@ -1,0 +1,33 @@
+/*
+Theme Name: Esotech Reen
+Author: Alexander Conroy
+Author URI: https://esotech.com
+Description: Custom template for Esotech.
+Version: 1.0
+*/
+*
+.admin-bar .navbar-collapse.collapse.stuck {
+	top: 32px;
+}
+footer .logo {
+	width: 100%;
+}
+#menu-home .dropdown-menu {
+	right: auto;
+}
+#hero p, #hero h1 {
+	text-shadow: 1px 1px #333;
+}
+#blog .post-title {
+	font-size: 20px;
+}
+#blog .meta li {
+	display: inline;
+	font-size: 12px;
+}
+.meta li.comments a:after {
+	content: "";
+}
+.meta li.likes a:after {
+	content: "";
+}
